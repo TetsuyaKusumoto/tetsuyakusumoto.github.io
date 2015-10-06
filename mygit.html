@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>はじめてのRuby</title>
+    <!-- BootstrapのCSS読み込み -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- CSS読み込み -->
+    <link rel="stylesheet" href="common/css/style.css" />
+    <!-- jQuery読み込み -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-menu">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">はじめてのRuby</a>
+          </div>
+          <div class="collapse navbar-collapse" id="site-menu">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="index.html"><span class="glyphicon glyphicon-user"></span> 自己紹介</a>
+              </li>
+              <li>
+                <a href="myproduct.html"><span class="glyphicon glyphicon-file"></span> 作ったもの</a>
+              </li>
+              <li class="active">
+                <a href="mygit.html"><span class="glyphicon glyphicon-folder-open"></span> マイGit</a>
+              </li>
+              <li>
+                <a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> コンタクト</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class=container>
+      <div class="page-header">
+        <h1>マイGit</h1>
+      </div>
+      <div class="row">
+        <div class="myphoto col-sm-3 hidden-xs">
+          <div class="img-photo">
+            <img class="img-rounded img-responsive" alt="Cinque Terre" width="140" height="140" src="common/images/myphoto.jpg"></img>
+          </div>
+          <div class="img-caption">
+            <h4>楠本哲也</h4>
+          </div>
+          <div>
+            <h5>
+                都内勤務のエンジニア。33歳。<br>
+                趣味はテニスと週一ジム通い。<br>
+                体重増加からもっと運動したいと思っているこの頃です。<br>
+            </h5>
+          </div>
+        </div>
+        <div class="content col-sm-9">
+            <h4>Gitに私が作成したプログラムのコードを公開しています。</h4><br>
+            <a href="https://github.com/TetsuyaKusumoto" target="_blank">
+                <button class="btn btn-primary">Gitへいく</button>
+            </a>
+
+        </div>
+      </div>
+
+  </body>
+</html>
